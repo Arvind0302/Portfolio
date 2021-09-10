@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="" class="logo anchor">
+        <h1>Arvind<span> Yadav</span></h1>
+      </a>
+      <ul>
+        <li><a href="#projects" class="anchor">Projects</a></li>
+        <li><a href="#skills" class="anchor">Skills</a></li>
+      </ul>
+      <button>Resume</button>
+      <button class="button" onclick="darkmode()" id="dark">
+        <span></span>
+      </button>
+    </nav>
+    <header>
+      <div class="lamp-container">
+        <img src="lamp.png" alt="" class="lamp" />
+        <img src="light.png" alt="" class="light" id="light" />
+        <img
+          src="https://www.w3schools.com/howto/img_avatar.png"
+          class="avatar"
+        />
+      </div>
+      <div class="about">
+        <h2>Hi, I'm <span>Arvind Yadav</span></h2>
+        <p>
+          I’m a passionate programmer, a undergraduate at IIT BHU, Varanasi..
+          I’m a web developer.
+        </p>
+        <p>
+          I spend my whole day, practically every day, experimenting with HTML,
+          CSS, and JavaScript.I build websites that engage users and I do it
+          well.
+        </p>
+        <p>
+          I also love to contribute in open source projects. Feel free to reach
+          me out on the social media platforms mentioned at the bottom of this
+          site.
+        </p>
+      </div>
+    </header>
+    <div class="box">
+      <hr class="style14" />
+      <div class="projects">
+        <h2 class="section" id="projects">My Work</h2>
+        <br />
+        <div class="cards">
+            <!-- 1st card -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="https://neilpatel.com/wp-content/uploads/2017/02/blogging.jpg"
+                  alt="Avatar"
+                  style="width: 100%; height: 70%"
+                />
+                <h2 class="title">Digital Diary</h2>
+                <ul class="stacks">
+                  <li class="stack-used">BOOTSTRAP</li>
+                  <li class="stack-used">EJS</li>
+                  <li class="stack-used">NODEJS</li>
+                  <li class="stack-used">EXPRESSJS</li>
+                  <li class="stack-used">MONGODB</li>
+                </ul>
+              </div>
+              <div class="flip-card-back">
+                  <h1 style="margin: 20px 0px;">Digital Diary</h1>
+                  <p>This is a blogging app with all the CRUD(create ,read ,update ,delete) features alongwith complete Authorization and Authentication.</p>
+                  <br>
+                  <button class="project-btn"><a href="https://github.com/Arvind0302/blog_app">Code</a></button>
+                  <button class="project-btn"><a href="https://lit-peak-31631.herokuapp.com/blogs">Website</a></button>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png"
+                  alt="Avatar"
+                  style="width: 100%; height: 70%"
+                />
+                <h2 class="title">TO DO App</h2>
+                <ul class="stacks">
+                  <li class="stack-used">HTML</li>
+                  <li class="stack-used">CSS</li>
+                  <li class="stack-used">VUE.JS</li>
+                </ul>
+              </div>
+              <div class="flip-card-back">
+                <h1 style="margin: 20px 0px;">TO-DO App</h1>
+                <p>This is a task tracker application to manage your everyday task ,I made this app while learning VUEJS framework.</p>
+                <br>
+                <button class="project-btn"><a href="">Code</a></button>
+                <button class="project-btn"><a href="">Website</a></button>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd card -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-KB05KOAk0Bkkz0akX4bNpvA9-TjGNkbgw&usqp=CAU"
+                  alt="Avatar"
+                  style="width: 100%; height: 70%"
+                />
+                <h2 class="title">TIC-TAC-TOE Game</h2>
+                <ul class="stacks">
+                  <li class="stack-used">HTML</li>
+                  <li class="stack-used">CSS</li>
+                  <li class="stack-used">JS</li>
+                </ul>
+              </div>
+              <div class="flip-card-back">
+                <h1 style="margin: 20px 0px;">TIC-TAC-TOE</h1>
+                <p>This is a game which can be played both in single player and multiplayer mode along with an unbeatable bot which is created using the minimax algorithm. </p>
+                <br>
+                <button class="project-btn"><a href="https://github.com/Arvind0302/TIC-TAC-TOE">Code</a></button>
+                <button class="project-btn"><a href="https://arvind0302.github.io/TIC-TAC-TOE/">Website</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="style14" />
+      <div class="skills">
+        <h2 class="section" id="skills">Skills</h2>
+        <br />
+        <div class="skillname">
+          <h3>HTML</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 90%">
+              <span class="percentage">90%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>CSS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%">
+              <span class="percentage">80%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>JAVASCRIPT</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 60%">
+              <span class="percentage">60%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>JQUERY</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%">
+              <span class="percentage">50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>BOOTSTRAP</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 70%">
+              <span class="percentage">70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>VUEJS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%">
+              <span class="percentage">50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>NODEJS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 60%">
+              <span class="percentage">60%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>EXPRESSJS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%">
+              <span class="percentage">50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skillname">
+          <h3>MONGODB</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 40%">
+              <span class="percentage">40%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="socialmedia">
+        <a href="https://www.facebook.com/profile.php?id=100057740764703"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/ArvindY25557953"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://github.com/Arvind0302"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/arvind-yadav-88a8391bb/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/arvind_1202/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <h2 style="margin: auto; text-align: center; margin: 20px">
+        <i class="fas fa-code"></i> with <i class="fas fa-heart"> </i> and
+        <i class="fas fa-coffee"></i> by Arvind Yadav
+      </h2>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
