@@ -154,7 +154,7 @@ hr.style14 {
 .flip-card {
   background-color: transparent;
   width: 30%;
-  height: 400px;
+  height: 450px;
   perspective: 1000px;
   margin-bottom: 50px;
 }
@@ -233,6 +233,7 @@ hr.style14 {
   display: flex;
   justify-content: space-around;
   font-size: 30px;
+  height: 40px;
 }
 
 .fab {
@@ -240,13 +241,13 @@ hr.style14 {
 }
 
 .fab:hover {
-  font-size: 35px;
+  font-size: 33px;
 }
 
 .footer {
   margin-top: 80px;
-  padding: 20px;
-  background-color: teal;
+  padding: 20px 0;
+  background-color: #008084;
   color: white;
 }
 
